@@ -1,5 +1,5 @@
-largura = 1000
-altura = 600
+largura = 1300
+altura = 800
 
 FPS = 30
 
