@@ -10,7 +10,7 @@ pygame.display.set_caption('Under the sea')
 
 
 sereia_largura = 100
-sereia_altura = 100
+sereia_altura = 150
 velocidade_sereia = 10
 
 
@@ -19,7 +19,7 @@ background = pygame.image.load('imagens/fundo.jpeg').convert()
 background = pygame.transform.scale(background, (largura, altura))
 fundo_rect = background.get_rect()
 
-sereia_img = pygame.image.load('imagens/sereia.png').convert_alpha()
+sereia_img = pygame.image.load('imagens/sereia2.png').convert_alpha()
 sereia_img_real = pygame.transform.scale(sereia_img, (sereia_largura, sereia_altura))
 
 
