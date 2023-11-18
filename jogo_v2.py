@@ -15,7 +15,7 @@ velocidade_sereia = 10
 
 
 font = pygame.font.SysFont(None, 48)
-background = pygame.image.load('imagens/fundo_do_mar.jpg').convert()
+background = pygame.image.load('imagens/fundo.jpeg').convert()
 background = pygame.transform.scale(background, (largura, altura))
 fundo_rect = background.get_rect()
 
