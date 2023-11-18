@@ -6,7 +6,7 @@ pygame.init()
 
 
 window = pygame.display.set_mode((largura, altura))
-pygame.display.set_caption('Tá dando onda')
+pygame.display.set_caption('Under the sea')
 font = pygame.font.SysFont(None, 48)
 
 
