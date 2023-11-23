@@ -25,7 +25,7 @@ estrela_img=pygame.transform.scale(estrela_img,(30,30))
 estrela_maior = pygame.transform.scale(estrela_img,(50,50))
 
 polvo_img= pygame.image.load('imagens/polvo.png').convert_alpha()
-polvo_img=pygame.transform.scale(polvo_img,(50,50))
+polvo_img=pygame.transform.scale(polvo_img,(150,150))
 
 tela_inicio = pygame.image.load('imagens/mar.png').convert_alpha()
 tela_inicio = pygame.transform.scale(tela_inicio, (largura, altura))
