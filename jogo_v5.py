@@ -21,7 +21,7 @@ sereia_img = pygame.image.load('imagens/sereia2.png').convert_alpha()
 sereia_real = pygame.transform.scale(sereia_img, (sereia_largura, sereia_altura))
 
 estrela_img= pygame.image.load('imagens/star.png').convert_alpha()
-estrela_img=pygame.transform.scale(estrela_img,(30,30))
+estrela_img=pygame.transform.scale(estrela_img,(40,40))
 estrela_maior = pygame.transform.scale(estrela_img,(50,50))
 
 polvo_img= pygame.image.load('imagens/polvo.png').convert_alpha()
@@ -111,8 +111,8 @@ class Polvo(pygame.sprite.Sprite):
         self.rect=self.image.get_rect()
         self.jogador=jogador
     def update(self):
-        self.rect.x+=(self.jogador.rect.x-self.rect.x)*0.010
-        self.rect.y+=(self.jogador.rect.y-self.rect.y)*0.010
+        self.rect.x+=(self.jogador.rect.x-self.rect.x)*0.015
+        self.rect.y+=(self.jogador.rect.y-self.rect.y)*0.015
 
 
 game = True
