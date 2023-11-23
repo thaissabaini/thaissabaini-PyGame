@@ -11,7 +11,7 @@ pygame.display.set_caption('Under the sea')
 sereia_largura = 80
 sereia_altura = 120
 
-velocidade_sereia = 5
+velocidade_sereia = 10
 
 font = pygame.font.SysFont(None, 48)
 fundo = pygame.image.load('imagens/mar.png')
@@ -26,6 +26,7 @@ estrela_img=pygame.transform.scale(estrela_img,(30,30))
 tela_inicio = pygame.image.load('imagens/mar.png').convert_alpha()
 tela_inicio = pygame.transform.scale(tela_inicio, (largura, altura))
 
+inter_estrela= 2
 def tela_inicial():
     while True:
         for evento in pygame.event.get():
@@ -98,7 +99,7 @@ def criar_estrela():
 
 game = True
 clock = pygame.time.Clock()
-FPS = 60
+FPS = 30
 
 todas_sprites = pygame.sprite.Group()
 jogador = Sereia(sereia_real)
@@ -106,6 +107,8 @@ todas_sprites.add(jogador)
 
 tela_inicial()
 begin()
+
+tempo_estrela=time.time()
 
 while game:
 
@@ -135,8 +138,9 @@ while game:
             
     tempo_total=time.time()- tempo_inicial
 
-    if int(tempo_total)%5==0:
+    if time.time()-tempo_estrela>inter_estrela:
         criar_estrela()
+        tempo_estrela=time.time()
 
     todas_sprites.update()
     todas_estrelas.update()
