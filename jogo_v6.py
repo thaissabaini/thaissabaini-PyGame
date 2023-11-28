@@ -35,7 +35,10 @@ som.set_volume(0.2)
 som.play(loops=-1)
 
 som_estrela = pygame.mixer.Sound('sons/estrela_som.mp3')
-som_estrela.set_volume(0.8)
+som_estrela.set_volume(0.4)
+
+som_polvo = pygame.mixer.Sound('sons/polvo_som.mp3')
+som_polvo.set_volume(0.4)
 
 inter_estrela= 2
 def tela_inicial():
@@ -177,9 +180,10 @@ while game:
 
     if colisoes_estrelas:
         pontuação+=1
-        som_estrela.play
+        som_estrela.play()
 
     if colisoes_polvo:
+        som_polvo.play()
         tela_inicial()
         begin()
         
