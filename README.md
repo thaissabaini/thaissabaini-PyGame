@@ -6,7 +6,7 @@ Raul Nicastro
 Thais Sabaini
 
 Funcionamento:
-O objetivo do jogador (sereia) é coletar o máximo de estrela possível, quanto mais estrelas, mais pontos. Além disso é necessário fugir do polvo, caso o polvo encoste na seria o jogo acaba. 
+O objetivo do jogador (sereia) é coletar o máximo de estrela possível, quanto mais estrelas, mais pontos. Além disso é necessário fugir do polvo, caso o polvo encoste na sereia o jogo acaba e reinicia. 
 
 Referências
 
