@@ -10,6 +10,7 @@ O objetivo do jogador (sereia) é coletar o máximo de estrela possível, quanto
 
 Referências
 
+Imagens:
 Background:https://dribbble.com/shots/16318410-Under-The-Sea-Background
 htmlfrom_view=detail_alsolike
 
@@ -18,9 +19,9 @@ https://www.gratispng.com/png-17ngkg/
 
 Polvo: https://pngtree.com/freepng/octopus_7082901.html
 
-Estrela: https://www.dlf.pt/ddetail/hxiJRbm_warming-ways-for-winter-disney-up-house/ 
-
+Estrela: https://pngtree.com/freepng/star-png-vector-icon-ui-game_8528046.html
 
 Sons:
 Background: https://www.youtube.com/watch?v=Sds8vgkZykc
+
 Estrela: https://www.youtube.com/watch?v=w_sYRVklQ58
